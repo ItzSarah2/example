@@ -1,0 +1,78 @@
+h2 {
+    font-family: 'Ubuntu', sans-serif;  
+  }
+  
+  .example-button-container {
+      display: flex;
+      justify-content: center;
+      width: 120px;
+    }
+  html, body { height: 100%; }
+  body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+  
+  .example-spacer {
+      flex: 1 1 auto;
+    }
+  
+  .mat-toolbar {
+      background-color: rgb(59, 134, 184);
+  }
+  .example-container {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    
+    .example-is-mobile .example-toolbar {
+      position: fixed;
+      /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+      z-index: 2;
+    }
+
+    mat-sidenav-container {
+        height: calc(205vh - 115vh);
+    }
+
+    mat-sidenav {
+        width: 250px;
+        background-color: rgb(10, 82, 129);
+    }
+
+    .btn {
+      background-color: rgb(10, 82, 129);
+      border: hidden;
+      font-size: 20px;
+      padding: 30px;
+    }
+    
+
+    .home {
+      color: black;
+      text-decoration: none;
+    }
+    
+    .add {
+      color: black;
+      text-decoration: none;
+    }
+
+    .test {
+      color: black;
+      text-decoration: none;
+    }
+
+    .mat-drawer-container {
+      background-color: white;
+    }
+
+    .active-link {
+      color: white;
+  }
+
+
+    
+
